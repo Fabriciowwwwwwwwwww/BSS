@@ -336,6 +336,9 @@
 
      
 
+
+  </div>
+
       <!-- ACCORDION -->
       <div class="accordion" id="accordionIntegral">
 
@@ -438,11 +441,10 @@
     </div>
   </div>
 
-</div>
-
 
   <!-- ERP -->
  <div class="contenido-software d-none" id="erp">
+  <div class="row">
 
   <h2 class="fw-bold mb-4">Sistema ERP</h2>
 
@@ -536,16 +538,12 @@
 
   </div>
 </div>
-
+ </div>
       <!-- FIN ACCORDION -->
-
-
-
-
-  </div>
 
   <!-- FACTURACIÓN -->
 <div class="contenido-software d-none" id="facturacion">
+  <div class="row">
 
   <h2 class="fw-bold mb-4">Facturación Electrónica</h2>
 
@@ -636,10 +634,10 @@
 
   </div>
 </div>
-
+</div>
       <!-- FIN ACCORDION -->
 
-  </div>
+
 
   <!-- PLANILLAS -->
 <div class="contenido-software d-none" id="planillas">
@@ -735,12 +733,11 @@
 
       <!-- FIN ACCORDION -->
 
-  </div>
 
   <!-- CONTABLE -->
 <div class="contenido-software d-none" id="contable">
-
   <h2 class="fw-bold mb-4">Sistema Contable</h2>
+  <div class="row">
 
   <div class="accordion" id="accordionCont">
 
@@ -827,12 +824,8 @@
 
   </div>
 </div>
-
-      <!-- FIN ACCORDION -->
-
-  </div>
-
 </div>
+      <!-- FIN ACCORDION -->
 
 
     <!-- Contenido principal de tu página -->
@@ -1033,6 +1026,43 @@
 <!-- cambio echo por mi -->
 
 <style>
+/* Botón cerrado */
+.accordion-button {
+  background-color: #0b2c4d; /* azul oscuro */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Botón abierto */
+.accordion-button:not(.collapsed) {
+  background-color: #08325f;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+/* Flecha */
+.accordion-button::after {
+  filter: brightness(0) invert(1);
+}
+
+/* Cuerpo del accordion */
+.accordion-body {
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Borde */
+/* CONTENEDOR PRINCIPAL */
+
+
+
+
+
+
+/* Separación entre items */
+.accordion-item + .accordion-item {
+  margin-top: 10px;
+}
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.4); /* Fondo oscuro suave */
