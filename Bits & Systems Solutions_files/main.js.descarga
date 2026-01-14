@@ -441,5 +441,3 @@ partnersTrack.addEventListener('mouseleave', () => {
 
 
 });
-
-
